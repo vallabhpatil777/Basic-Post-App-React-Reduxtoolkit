@@ -18,24 +18,24 @@
 6. Configured routing with React Router for navigation between homepage and Add post page.
 
 7. Created different components 
-
-Navbar Component: Provided navigation between the post list page (/) and add post page (/add-post).
-PostList Component: Fetched posts from the Redux store and displayed posts in a responsive grid layout using Material-UI components.
-AddPostForm Component: A form to allow users to add new posts. Showed a success Snackbar(Material-UI component) on successful post submission.
-
+<ul>
+<li>Navbar Component: Provided navigation between the post list page (/) and add post page (/add-post).</li>
+<li>PostList Component: Fetched posts from the Redux store and displayed posts in a responsive grid layout using Material-UI components.</li>
+<li>AddPostForm Component: A form to allow users to add new posts. Showed a success Snackbar(Material-UI component) on successful post submission.</li>
+</ul>
 8. Styling is done using Material-UI components. Added hover and transition effects for better UI experience.
 
 
-Assumptions :
+### Assumptions :
 
-Local storage is used to persist user-added posts since the API is not persistent.
+Local storage is used to persist user-added posts after browser refresh since the API is not persistent.
 
 
 
 ### Installation 
 
-1. Clone this repository to your local machine using .
-2. Move the appropriate directory using cd
+1. Clone this repository to your local machine using `git clone https://github.com/vallabhpatil777/Basic-Post-App-React-Reduxtoolkit.git`.
+2. Move the appropriate directory using `cd <your-directory-path>`
 3. Run `npm install` to install the required dependencies from package.json file.
 4. Run `npm run dev` to start the web server locally. 
 
