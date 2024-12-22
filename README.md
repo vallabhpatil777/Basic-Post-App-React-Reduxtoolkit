@@ -4,7 +4,7 @@
 ### Approach 
 
 
-1. Created a React application with Redux Toolkit for state management.Used jsonplaceholder.typicode.com as the API for fetching and adding posts.
+1. Created a React application with Redux Toolkit for state management. Used jsonplaceholder.typicode.com as the API for fetching and adding posts.
 
 2. Configured a Redux store (store.ts) to manage the application state. Used postSlice to handle the posts data, including fetching and adding posts.
    Leveraged createAsyncThunk for asynchronous actions to fetch and add posts.
@@ -23,8 +23,10 @@
 <li>PostList Component: Fetched posts from the Redux store and displayed posts in a responsive grid layout using Material-UI components.</li>
 <li>AddPostForm Component: A form to allow users to add new posts. Showed a success Snackbar(Material-UI component) on successful post submission.</li>
 </ul>
+
 8. Styling is done using Material-UI components. Added hover and transition effects for better UI experience.
 
+9. Error management is done by handling errors in API calls using createAsyncThunk. And stored error messages in the Redux state (error field in postSlice). Appropriately displayed error messages in case where status is failed.
 
 ### Assumptions :
 
